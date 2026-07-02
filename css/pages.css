@@ -7,6 +7,8 @@
 .hero {
   position: relative;
   overflow: hidden;
+  /* miękkie światło poranne od strony wizualu */
+  background: radial-gradient(110% 85% at 82% 8%, rgba(250, 248, 243, .85), transparent 62%);
 }
 
 .hero .container {
@@ -57,9 +59,25 @@
   margin-top: 2.2rem;
 }
 
-/* Wizual hero — elewacja + nakładka rysunkowa */
+/* Wizual hero — elewacja + nakładka rysunkowa.
+   Na desktopie wychodzi do krawędzi okna: zabudowa „domyka” ekran
+   tak, jak mebel domyka ścianę. */
 .hero-visual {
   position: relative;
+}
+
+@media (min-width: 960px) {
+  .hero-visual {
+    margin-right: calc(50% - 50vw);
+  }
+
+  .hero-visual .hero-frame {
+    border-right: none;
+  }
+
+  .hero-dim-bottom {
+    padding-right: var(--gutter);
+  }
 }
 
 .hero-visual .hero-frame {
@@ -67,6 +85,26 @@
   border: 1px solid var(--soft-line);
   background: var(--warm-white);
   box-shadow: 0 30px 60px -40px rgba(23, 53, 45, .4);
+}
+
+/* pionowa linia wymiarowa przy kolumnie tekstu */
+@media (min-width: 1280px) {
+  .hero-copy::before {
+    content: "";
+    position: absolute;
+    left: -2.6rem;
+    top: .4rem;
+    bottom: .4rem;
+    width: 9px;
+    border-left: 1px solid var(--ink-25);
+    background:
+      repeating-linear-gradient(180deg,
+        var(--ink-25) 0 1px, transparent 1px 28px) left top / 9px 100% no-repeat;
+  }
+
+  .hero-copy {
+    position: relative;
+  }
 }
 
 .hero-visual img {
@@ -187,11 +225,20 @@
    SPACE SELECTOR — „Nie gotowy zestaw”
    ================================================================ */
 
+/* pasmo „arkusza roboczego”: jaśniejsze tło + rytm pionowych podziałów */
+.space-selector {
+  background:
+    linear-gradient(90deg, rgba(23, 53, 45, .04) 1px, transparent 1px) 0 0 / 200px 100%,
+    linear-gradient(180deg, var(--warm-white), rgba(250, 248, 243, 0) 70%);
+  border-block: 1px solid var(--soft-line);
+}
+
 .space-selector .selector-shell {
   display: grid;
   grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
   border: 1px solid var(--soft-line);
   background: var(--warm-white);
+  box-shadow: 0 24px 50px -42px rgba(23, 53, 45, .55);
 }
 
 .selector-tabs {
@@ -419,8 +466,24 @@
 .cell-light .cell-idx { color: var(--signal-orange); }
 .cell-light .cell-cta { color: var(--ink-green); }
 
+/* znacznik narożny jak odnośnik na rysunku */
+.cell-corner::after {
+  content: "";
+  position: absolute;
+  top: .9rem;
+  right: .9rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-top: 1px solid var(--signal-orange);
+  border-right: 1px solid var(--signal-orange);
+  opacity: .75;
+}
+
 .cell-dark {
-  background: var(--ink-green);
+  /* podziały frontów lakierowanej zabudowy */
+  background:
+    linear-gradient(90deg, var(--bone-line) 1px, transparent 1px) 0 0 / 33.4% 100%,
+    linear-gradient(180deg, var(--ink-green-2), var(--ink-green));
 }
 
 .cell-dark h3 { color: var(--bone); }
@@ -429,7 +492,24 @@
 .cell-dark .cell-cta { color: var(--birch); }
 
 .cell-birch {
-  background: var(--birch);
+  /* front z usłojeniem i uchwytem */
+  background:
+    repeating-linear-gradient(94deg,
+      transparent 0 22px, rgba(183, 162, 129, .22) 22px 23px,
+      transparent 23px 41px, rgba(183, 162, 129, .14) 41px 42px),
+    var(--birch);
+}
+
+.cell-birch::after {
+  content: "";
+  position: absolute;
+  right: 1.2rem;
+  top: 1.35rem;
+  width: 3px;
+  height: 46px;
+  border-radius: 2px;
+  background: var(--graphite);
+  opacity: .55;
 }
 
 .cell-birch h3 { color: var(--ink-green); }
@@ -473,6 +553,12 @@
 
 .process-rail {
   position: relative;
+  /* pasmo materiałowe: podłużny ślad brzozy jak blat warsztatu */
+  background:
+    repeating-linear-gradient(90deg,
+      transparent 0 237px, rgba(23, 53, 45, .045) 237px 238px),
+    linear-gradient(180deg, rgba(217, 201, 175, .28), rgba(217, 201, 175, .1));
+  border-block: 1px solid rgba(205, 186, 156, .55);
 }
 
 .process-track {

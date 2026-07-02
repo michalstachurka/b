@@ -17,19 +17,19 @@
   <path d="M22 0 C 25 90, 20 300, 24 420" stroke="#B7A281" stroke-width=".8" fill="none" opacity=".18"/>
 </pattern>
 <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse">
-  <path d="M-2 12 L12 -2" stroke="#2B2D2A" stroke-width="1" opacity=".25" fill="none"/>
+  <path d="M-2 12 L12 -2" stroke="#2B2D2A" stroke-width="1.3" opacity=".42" fill="none"/>
 </pattern>
 </defs>
 <rect width="1600" height="900" fill="url(#wall)"/>
 <rect x="0" y="800" width="1600" height="3" fill="#CFC9BA" /><rect x="0" y="803" width="1600" height="200" fill="#E9E3D5" /><line x1="0" y1="803" x2="1600" y2="803" stroke="#2B2D2A" stroke-opacity=".12"/>
 <rect x="500" y="130" width="620" height="670" fill="#F7F3EA" />
-<rect x="500" y="130" width="620" height="670" fill="none" stroke="#2B2D2A" stroke-opacity=".55" stroke-width="2.5"/>
+<rect x="500" y="130" width="620" height="670" fill="none" stroke="#2B2D2A" stroke-opacity=".75" stroke-width="3"/>
 <rect x="452" y="130" width="48" height="670" fill="url(#hatch)" />
 <rect x="1120" y="130" width="48" height="670" fill="url(#hatch)" />
 <rect x="452" y="130" width="48" height="670" fill="none" stroke="#2B2D2A" stroke-opacity=".4"/>
 <rect x="1120" y="130" width="48" height="670" fill="none" stroke="#2B2D2A" stroke-opacity=".4"/>
 <rect x="520" y="428" width="54" height="34" fill="#2B2D2A" rx="3"/>
-<line x1="574" y1="445" x2="1120" y2="445" stroke="#E86C3B" stroke-width="2.5" stroke-dasharray="10 8"/>
+<line x1="574" y1="445" x2="1120" y2="445" stroke="#E86C3B" stroke-width="3.5" stroke-dasharray="12 9"/>
 <circle cx="1120" cy="445" r="5" fill="#E86C3B"/>
 <g stroke="#2B2D2A" stroke-opacity=".5" stroke-width="1.2" fill="none"><line x1="500" y1="108" x2="1120" y2="108"/><line x1="500" y1="101" x2="500" y2="115"/><line x1="1120" y1="101" x2="1120" y2="115"/></g><text x="810.0" y="99" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".68" text-anchor="middle">2 060</text>
 <g stroke="#2B2D2A" stroke-opacity=".5" stroke-width="1.2" fill="none"><line x1="1210" y1="130" x2="1210" y2="800"/><line x1="1203" y1="130" x2="1217" y2="130"/><line x1="1203" y1="800" x2="1217" y2="800"/></g><g transform="translate(1201,465.0) rotate(-90)"><text x="0" y="0" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".68" text-anchor="middle">2 420</text></g>

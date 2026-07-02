@@ -17,7 +17,7 @@
   <path d="M22 0 C 25 90, 20 300, 24 420" stroke="#B7A281" stroke-width=".8" fill="none" opacity=".18"/>
 </pattern>
 <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse">
-  <path d="M-2 12 L12 -2" stroke="#2B2D2A" stroke-width="1" opacity=".25" fill="none"/>
+  <path d="M-2 12 L12 -2" stroke="#2B2D2A" stroke-width="1.3" opacity=".42" fill="none"/>
 </pattern>
 </defs>
 <rect width="800" height="1000" fill="url(#wall)"/>

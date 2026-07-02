@@ -196,7 +196,9 @@
   }
 
   .contact-panel {
-    position: static;
+    /* relative, nie static: ::after (pas koloru) musi zostać wewnątrz panelu */
+    position: relative;
+    top: auto;
   }
 
   .cta-band .container {
@@ -314,6 +316,10 @@
   }
 
   .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-cols {
     grid-template-columns: 1fr;
   }
 
