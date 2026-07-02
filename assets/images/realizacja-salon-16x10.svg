@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Zabudowa ścienna salonu z niską konsolą — szkic poglądowy">
+<title>Zabudowa ścienna salonu z niską konsolą — szkic poglądowy</title>
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FAF8F3"/><stop offset="1" stop-color="#F2EEE5"/>
+</linearGradient>
+<linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#1E4034"/><stop offset="1" stop-color="#17352D"/>
+</linearGradient>
+<linearGradient id="mirror" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#D3D8D1"/><stop offset=".45" stop-color="#C3CBC4"/>
+  <stop offset=".55" stop-color="#DDE2DA"/><stop offset="1" stop-color="#BEC7BF"/>
+</linearGradient>
+<pattern id="grain" width="26" height="420" patternUnits="userSpaceOnUse">
+  <path d="M6 0 C 9 100, 3 220, 7 420" stroke="#B7A281" stroke-width="1" fill="none" opacity=".22"/>
+  <path d="M15 0 C 12 140, 18 260, 14 420" stroke="#B7A281" stroke-width="1" fill="none" opacity=".15"/>
+  <path d="M22 0 C 25 90, 20 300, 24 420" stroke="#B7A281" stroke-width=".8" fill="none" opacity=".18"/>
+</pattern>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse">
+  <path d="M-2 12 L12 -2" stroke="#2B2D2A" stroke-width="1" opacity=".25" fill="none"/>
+</pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#wall)"/>
+<rect x="0" y="880" width="1600" height="3" fill="#CFC9BA" /><rect x="0" y="883" width="1600" height="200" fill="#E9E3D5" /><line x1="0" y1="883" x2="1600" y2="883" stroke="#2B2D2A" stroke-opacity=".12"/>
+<rect x="360" y="100" width="880" height="620" fill="#43403A" />
+<rect x="366" y="106" width="429" height="608" fill="#D9C9AF" /><rect x="366" y="106" width="429" height="608" fill="url(#grain)" /><rect x="366" y="106" width="429" height="608" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<rect x="805" y="106" width="429" height="608" fill="#D9C9AF" /><rect x="805" y="106" width="429" height="608" fill="url(#grain)" /><rect x="805" y="106" width="429" height="608" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<rect x="620" y="260" width="360" height="210" fill="#2B2D2A" />
+<rect x="632" y="270" width="336" height="190" fill="#20221F"/>
+<path d="M632 270 L968 460" stroke="#3B3E3A" stroke-width="40" opacity=".5"/>
+<rect x="200" y="720" width="1200" height="160" fill="#43403A" />
+<rect x="206" y="726" width="289" height="148" fill="url(#ink)" /><rect x="206" y="726" width="289" height="148" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="306" y1="754" x2="376" y2="754" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="506" y="726" width="289" height="148" fill="url(#ink)" /><rect x="506" y="726" width="289" height="148" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="606" y1="754" x2="676" y2="754" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="806" y="726" width="289" height="148" fill="url(#ink)" /><rect x="806" y="726" width="289" height="148" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="906" y1="754" x2="976" y2="754" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="1106" y="726" width="289" height="148" fill="url(#ink)" /><rect x="1106" y="726" width="289" height="148" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="1206" y1="754" x2="1276" y2="754" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="120" y="200" width="200" height="300" fill="#FAF8F3" /><rect x="120" y="200" width="200" height="300" fill="#2B2D2A" opacity=".06"/><rect x="120" y="300.0" width="200" height="6" fill="#CDBA9C" /><rect x="120" y="400.0" width="200" height="6" fill="#CDBA9C" />
+<rect x="150" y="396" width="24" height="50" fill="#E86C3B" />
+<rect x="1300" y="260" width="190" height="240" fill="#FAF8F3" /><rect x="1300" y="260" width="190" height="240" fill="#2B2D2A" opacity=".06"/><rect x="1300" y="340.0" width="190" height="6" fill="#CDBA9C" /><rect x="1300" y="420.0" width="190" height="6" fill="#CDBA9C" />
+<rect x="1330" y="420" width="40" height="36" fill="#8C968E" />
+<g stroke="#2B2D2A" stroke-opacity=".5" stroke-width="1.2" fill="none"><line x1="200" y1="46" x2="1400" y2="46"/><line x1="200" y1="39" x2="200" y2="53"/><line x1="1400" y1="39" x2="1400" y2="53"/></g><text x="800.0" y="37" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".68" text-anchor="middle">3 600</text>
+<g stroke="#E86C3B" stroke-opacity=".65" stroke-width="1.2" fill="none"><line x1="1530" y1="720" x2="1530" y2="880"/><line x1="1523" y1="720" x2="1537" y2="720"/><line x1="1523" y1="880" x2="1537" y2="880"/></g><g transform="translate(1521,800.0) rotate(-90)"><text x="0" y="0" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#E86C3B" fill-opacity=".68" text-anchor="middle">480</text></g>
+<text x="28" y="966" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="2" fill="#2B2D2A" fill-opacity=".4" text-anchor="start">IL. 09 — SZKIC POGLĄDOWY / DEMO</text>
+</svg>

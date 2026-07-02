@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Funkcjonalna kuchnia z zabudową wykonaną pod wymiar — szkic poglądowy">
+<title>Funkcjonalna kuchnia z zabudową wykonaną pod wymiar — szkic poglądowy</title>
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FAF8F3"/><stop offset="1" stop-color="#F2EEE5"/>
+</linearGradient>
+<linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#1E4034"/><stop offset="1" stop-color="#17352D"/>
+</linearGradient>
+<linearGradient id="mirror" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#D3D8D1"/><stop offset=".45" stop-color="#C3CBC4"/>
+  <stop offset=".55" stop-color="#DDE2DA"/><stop offset="1" stop-color="#BEC7BF"/>
+</linearGradient>
+<pattern id="grain" width="26" height="420" patternUnits="userSpaceOnUse">
+  <path d="M6 0 C 9 100, 3 220, 7 420" stroke="#B7A281" stroke-width="1" fill="none" opacity=".22"/>
+  <path d="M15 0 C 12 140, 18 260, 14 420" stroke="#B7A281" stroke-width="1" fill="none" opacity=".15"/>
+  <path d="M22 0 C 25 90, 20 300, 24 420" stroke="#B7A281" stroke-width=".8" fill="none" opacity=".18"/>
+</pattern>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse">
+  <path d="M-2 12 L12 -2" stroke="#2B2D2A" stroke-width="1" opacity=".25" fill="none"/>
+</pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#wall)"/>
+<rect x="0" y="906" width="800" height="3" fill="#CFC9BA" /><rect x="0" y="909" width="800" height="200" fill="#E9E3D5" /><line x1="0" y1="909" x2="800" y2="909" stroke="#2B2D2A" stroke-opacity=".12"/>
+<rect x="50" y="34" width="706" height="878" fill="#43403A" />
+<rect x="56" y="40" width="190" height="300" fill="#D9C9AF" /><rect x="56" y="40" width="190" height="300" fill="url(#grain)" /><rect x="56" y="40" width="190" height="300" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<rect x="56" y="345" width="190" height="160" fill="#2B2D2A" />
+<rect x="76" y="380" width="150" height="100" fill="#1E201D"/>
+<line x1="76" y1="362" x2="226" y2="362" stroke="#8F918C" stroke-width="4" stroke-linecap="round"/>
+<rect x="56" y="510" width="190" height="396" fill="#D9C9AF" /><rect x="56" y="510" width="190" height="396" fill="url(#grain)" /><rect x="56" y="510" width="190" height="396" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="226" y1="560" x2="226" y2="650" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="251" y="40" width="240" height="250" fill="url(#ink)" /><rect x="251" y="40" width="240" height="250" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<rect x="496" y="40" width="244" height="250" fill="url(#ink)" /><rect x="496" y="40" width="244" height="250" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="320" y1="266" x2="390" y2="266" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<line x1="580" y1="266" x2="650" y2="266" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="251" y="295" width="489" height="240" fill="#D9C9AF" />
+<rect x="251" y="295" width="489" height="240" fill="url(#grain)" />
+<rect x="520" y="316" width="200" height="186" fill="#FAF8F3" /><rect x="520" y="316" width="200" height="186" fill="#2B2D2A" opacity=".06"/><rect x="520" y="378.0" width="200" height="6" fill="#CDBA9C" /><rect x="520" y="440.0" width="200" height="6" fill="#CDBA9C" />
+<rect x="548" y="442" width="22" height="52" fill="#E86C3B" />
+<rect x="590" y="452" width="40" height="42" fill="#8C968E" />
+<rect x="46" y="535" width="714" height="18" fill="#E8E2D3" />
+<line x1="46" y1="553" x2="760" y2="553" stroke="#2B2D2A" stroke-opacity=".2"/>
+<rect x="251" y="563" width="489" height="110" fill="url(#ink)" /><rect x="251" y="563" width="489" height="110" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="300" y1="593" x2="370" y2="593" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="251" y="678" width="489" height="110" fill="url(#ink)" /><rect x="251" y="678" width="489" height="110" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="300" y1="708" x2="370" y2="708" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<rect x="251" y="793" width="489" height="123" fill="url(#ink)" /><rect x="251" y="793" width="489" height="123" fill="none" stroke="#2B2D2A" stroke-opacity=".14" stroke-width="1"/>
+<line x1="300" y1="823" x2="370" y2="823" stroke="#2B2D2A" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<g stroke="#2B2D2A" stroke-opacity=".5" stroke-width="1.2" fill="none"><line x1="778" y1="40" x2="778" y2="906"/><line x1="771" y1="40" x2="785" y2="40"/><line x1="771" y1="906" x2="785" y2="906"/></g><g transform="translate(769,473.0) rotate(-90)"><text x="0" y="0" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".68" text-anchor="middle">2 590</text></g>
+<g stroke="#E86C3B" stroke-opacity=".65" stroke-width="1.2" fill="none"><line x1="251" y1="972" x2="740" y2="972"/><line x1="251" y1="965" x2="251" y2="979"/><line x1="740" y1="965" x2="740" y2="979"/></g><text x="495.5" y="963" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#E86C3B" fill-opacity=".68" text-anchor="middle">1 480</text>
+<text x="56" y="980" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="2" fill="#2B2D2A" fill-opacity=".4" text-anchor="start">IL. 02 — SZKIC POGLĄDOWY / DEMO</text>
+</svg>

@@ -1,0 +1,31 @@
+Przeczytaj najpierw `CLAUDE.md`, a następnie wszystkie pliki od `01-research.md` do `09-project-summary.md`. Szczegółowa specyfikacja wykonawcza znajduje się w `08-claude-code-build-spec.md`.
+
+Zbuduj w bieżącym folderze kompletną, klikalną i responsywną stronę demonstracyjną LAMITECH Produkcja Stolarska w czystym HTML, CSS i JavaScript.
+
+Nie projektuj strony od nowa i nie zamieniaj przygotowanego kierunku na generyczny szablon. Zastosuj dokładnie ideę „Przestrzeń domknięta meblem”: modularną kompozycję inspirowaną frontami, wnękami, podziałami zabudowy i liniami wymiarowymi. Użyj systemu kolorów, typografii, gotowych treści, struktury pięciu podstron oraz interakcji opisanych w plikach.
+
+Wykonaj:
+
+1. stronę główną,
+2. podstronę Meble na wymiar,
+3. Realizacje,
+4. Jak pracujemy,
+5. Kontakt,
+6. wspólną nawigację i menu mobilne,
+7. interaktywny wybór typu przestrzeni,
+8. asymetryczną siatkę kategorii,
+9. proces w formie linii rysunku meblowego,
+10. portfolio z filtrami i lightboxem,
+11. demonstracyjny formularz bez wysyłania danych.
+
+Najpierw wypisz krótki plan maksymalnie 8 punktów. Następnie wykonaj całość bez pytania o akceptację kolejnych etapów. Nie zatrzymuj się po stworzeniu samego hero.
+
+Utwórz kod w bieżącym katalogu, ale nie usuwaj plików `.md` ani `CLAUDE.md`. Uruchom lokalny serwer. Jeżeli masz dostęp do przeglądarki lub Chrome/MCP, sprawdź stronę wizualnie na szerokościach około 390, 768, 1440 i 1920 px. Sprawdź także menu, klawiaturę, focus, formularz, filtry, lightbox, reduced motion, brak poziomego scrolla i błędy konsoli.
+
+Po pierwszej działającej wersji przeprowadź obowiązkowy audyt antygeneryczności. Wskaż minimum pięć elementów wyglądających zbyt przewidywalnie lub „AI-generated” i popraw co najmniej trzy najważniejsze. Zwróć szczególną uwagę na typografię, rytm sekcji, atmosferyczne tła, nietypowe proporcje modułów i ruch wynikający z idei zabudowy meblowej.
+
+Nie używaj Inter, Roboto, Arial ani fontów systemowych jako głównego systemu. Nie używaj fioletowego gradientu, identycznych zaokrąglonych kart, centralnego hero w stylu SaaS ani standardowej sekwencji hero + trzy zalety + opinie.
+
+Nie publikuj strony, nie wysyłaj formularzy, nie kopiuj logo i nie wymyślaj danych firmy, opinii, cen, gwarancji, certyfikatów, terminów ani realizacji. Jeżeli nie ma finalnych grafik lub wideo, użyj dopracowanych lokalnych placeholderów SVG i zapisz w `README.md` dokładną listę plików do podmiany zgodnie z `06-image-prompts.md` i `07-video-prompts.md`.
+
+Zakończ dopiero po spełnieniu wszystkich kryteriów z `08-claude-code-build-spec.md`. W końcowym podsumowaniu podaj strukturę plików, sposób uruchomienia, wykonane testy, poprawki po audycie i brakujące materiały.

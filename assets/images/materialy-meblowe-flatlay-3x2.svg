@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Zestawienie próbek drewna i kolorów do zabudowy meblowej — szkic poglądowy">
+<title>Zestawienie próbek drewna i kolorów do zabudowy meblowej — szkic poglądowy</title>
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FAF8F3"/><stop offset="1" stop-color="#F2EEE5"/>
+</linearGradient>
+<linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#1E4034"/><stop offset="1" stop-color="#17352D"/>
+</linearGradient>
+<linearGradient id="mirror" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#D3D8D1"/><stop offset=".45" stop-color="#C3CBC4"/>
+  <stop offset=".55" stop-color="#DDE2DA"/><stop offset="1" stop-color="#BEC7BF"/>
+</linearGradient>
+<pattern id="grain" width="26" height="420" patternUnits="userSpaceOnUse">
+  <path d="M6 0 C 9 100, 3 220, 7 420" stroke="#B7A281" stroke-width="1" fill="none" opacity=".22"/>
+  <path d="M15 0 C 12 140, 18 260, 14 420" stroke="#B7A281" stroke-width="1" fill="none" opacity=".15"/>
+  <path d="M22 0 C 25 90, 20 300, 24 420" stroke="#B7A281" stroke-width=".8" fill="none" opacity=".18"/>
+</pattern>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse">
+  <path d="M-2 12 L12 -2" stroke="#2B2D2A" stroke-width="1" opacity=".25" fill="none"/>
+</pattern>
+</defs>
+<rect width="900" height="600" fill="url(#wall)"/>
+<rect x="0" y="0" width="900" height="600" fill="#FAF8F3" />
+<rect x="0" y="0" width="900" height="600" fill="url(#wall)" />
+<rect x="86" y="118" width="230" height="310" fill="#2B2D2A" opacity=".12"/><rect x="80" y="110" width="230" height="310" fill="#D9C9AF" /><rect x="80" y="110" width="230" height="310" fill="url(#grain)" /><rect x="80" y="110" width="230" height="310" fill="none" stroke="#2B2D2A" stroke-opacity=".15"/><text x="80" y="446" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".6" text-anchor="start">01 / FORNIR</text>
+<rect x="366" y="178" width="190" height="250" fill="#2B2D2A" opacity=".12"/><rect x="360" y="170" width="190" height="250" fill="#17352D" /><rect x="360" y="170" width="190" height="250" fill="none" stroke="#2B2D2A" stroke-opacity=".15"/><text x="360" y="446" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".6" text-anchor="start">02 / LAKIER MAT</text>
+<rect x="360" y="170" width="190" height="250" fill="url(#ink)" />
+<rect x="360" y="170" width="190" height="250" fill="none" stroke="#2B2D2A" stroke-opacity=".15"/>
+<text x="360" y="446" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".6" text-anchor="start">02 / LAKIER MAT</text>
+<rect x="606" y="98" width="160" height="200" fill="#2B2D2A" opacity=".12"/><rect x="600" y="90" width="160" height="200" fill="#EFEAE0" /><rect x="600" y="90" width="160" height="200" fill="none" stroke="#2B2D2A" stroke-opacity=".15"/><text x="600" y="316" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".6" text-anchor="start">03 / PŁYTA</text>
+<rect x="806" y="138" width="26" height="290" fill="#2B2D2A" opacity=".12"/><rect x="800" y="130" width="26" height="290" fill="#2B2D2A" /><rect x="800" y="130" width="26" height="290" fill="none" stroke="#2B2D2A" stroke-opacity=".15"/>
+<text x="796" y="446" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".6" text-anchor="start">04 / GRAFIT</text>
+<rect x="626" y="368" width="96" height="60" fill="#2B2D2A" opacity=".12"/><rect x="620" y="360" width="96" height="60" fill="#E86C3B" /><rect x="620" y="360" width="96" height="60" fill="none" stroke="#2B2D2A" stroke-opacity=".15"/><text x="620" y="446" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".6" text-anchor="start">05 / AKCENT</text>
+<g stroke="#2B2D2A" stroke-opacity=".5" stroke-width="1.2" fill="none"><line x1="80" y1="86" x2="310" y2="86"/><line x1="80" y1="79" x2="80" y2="93"/><line x1="310" y1="79" x2="310" y2="93"/></g><text x="195.0" y="77" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="14" letter-spacing="1.5" fill="#2B2D2A" fill-opacity=".68" text-anchor="middle">230</text>
+<text x="80" y="560" font-family="IBM Plex Mono, ui-monospace, Menlo, monospace" font-size="13" letter-spacing="2" fill="#2B2D2A" fill-opacity=".4" text-anchor="start">IL. 07 — SZKIC POGLĄDOWY / DEMO</text>
+</svg>
