@@ -1,0 +1,59 @@
+/* LAMITECH — tokeny projektowe
+   Kierunek: „Przestrzeń domknięta meblem” */
+
+:root {
+  /* Paleta */
+  --ink-green: #17352D;
+  --ink-green-2: #1E4034;
+  --ink-green-3: #24503F;
+  --bone: #F2EEE5;
+  --birch: #D9C9AF;
+  --birch-2: #CDBA9C;
+  --signal-orange: #E86C3B;
+  --graphite: #2B2D2A;
+  --sage-grey: #8C968E;
+  --soft-line: #D8D4CA;
+  --warm-white: #FAF8F3;
+
+  /* Pochodne */
+  --ink-06: rgba(23, 53, 45, .06);
+  --ink-12: rgba(23, 53, 45, .12);
+  --ink-25: rgba(23, 53, 45, .25);
+  --ink-45: rgba(23, 53, 45, .45);
+  --bone-line: rgba(242, 238, 229, .18);
+  --bone-45: rgba(242, 238, 229, .5);
+  --shadow-gap: rgba(28, 26, 20, .55);
+
+  /* Typografia */
+  --font-heading: "Bricolage Grotesque", "Georgia", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  --fs-hero: clamp(3.2rem, 7vw, 7rem);
+  --fs-h1: clamp(2.7rem, 5vw, 5rem);
+  --fs-h2: clamp(2rem, 3.8vw, 3.7rem);
+  --fs-h3: clamp(1.25rem, 2vw, 1.7rem);
+  --fs-lead: clamp(1.08rem, 1.7vw, 1.4rem);
+  --fs-body: 1.04rem;
+  --fs-mono: 0.78rem;
+  --fs-mono-sm: 0.72rem;
+
+  /* Układ */
+  --container: 1240px;
+  --max-width: 1440px;
+  --gutter: clamp(1.25rem, 3vw, 2rem);
+  --section-y: clamp(4.5rem, 9vw, 8.5rem);
+
+  /* Kształt */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+
+  /* Ruch */
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --dur-fast: .28s;
+  --dur-med: .55s;
+  --dur-slow: .9s;
+
+  /* Szczelina cieniowa między „frontami” */
+  --gap-front: 6px;
+}
